@@ -1,0 +1,430 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: "segoe ui light";
+}
+
+ul li {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* =================== */
+.home .nav {
+    width: 100%;
+    overflow: hidden;
+    background-attachment:scroll;
+}
+
+.home .nav .img img {
+    width: 130px;
+}
+
+.home .nav .img {
+    width: 20%;
+    float: left;
+}
+.home .nav .link {
+    width: 80%;
+    float: left;
+    padding-left: 600px;
+}
+.home .nav .link ul li {
+    float: left;
+    padding: 0px 25px;
+    font-size: 20px;
+    font-family: "Alegreya", serif;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-family: "Alegreya SC", serif;
+}
+.home .nav .link ul {
+    padding: 0px 150px;
+}
+
+.home .nav .link ul li:hover {
+    color: #8e7754;
+}
+
+/* ================== */
+.home {
+    background-image: url(img/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    height: 100vh;
+    color: #fff;
+    padding-top: 10px;
+}
+.home .caption {
+    width: 650px;
+    margin: auto;
+    padding-top: 200px;
+}
+.home .caption .welcome {
+    font-size: 30px;
+}
+.home .caption h1 {
+    font-size: 80px;
+    font-family: "Alegreya", serif;
+}
+.home .caption .text {
+    font-size: 25px;
+    padding: 20px 0px;
+}
+.home button {
+    padding: 15px 20px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+.home .contactes {
+    border: solid white 2px;
+}
+
+.home .learn {
+    background-color: #8e7754;
+}
+
+/* ============================================ */
+
+.how-are {
+    margin: auto;
+    overflow: hidden;
+    padding: 150px 80px;
+    padding-left: 150px;
+}
+
+.how-are .img {
+    width: 40%;
+    float: left;
+    padding-right: 140px;
+}
+
+.how-are .img img {
+    width: 115%;
+}
+
+.how-are .section1 h2 {
+    color: black;
+    font-size: 25px;
+}
+.how-are .section1 {
+    width: 40%;
+    float: left;
+    color: #686866;
+    padding-top: 50px;
+}
+
+span {
+    width: 70px;
+    border: solid black 3px;
+    border-radius: 50%;
+}
+
+.how-are .section1 p {
+    font-size: 18px;
+    padding: 30px 0px;
+}
+
+.how-are .section1 ul li {
+    padding: 15px;
+}
+
+/* =================================== */
+.our_location {
+    background-color: #f8f8f8;
+    width: 100%;
+    overflow: hidden;
+}
+
+.our_location .img img {
+    width: 550px;
+}
+
+.our_location .section2 {
+    width: 40%;
+    float: left;
+    padding: 180px 0px 150px 120px;
+}
+
+.our_location .img {
+    padding: 120px 20px 120px 30px;
+    width: 40%;
+    float: left;
+}
+
+.our_location .section2 .operating {
+    padding: 30px 0px;
+}
+
+.our_location .section2 h2 {
+    font-size: 35px;
+    font-family: "Alegreya", serif;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-family: "Alegreya SC", serif;
+}
+
+.our_location .section2 p {
+    font-size: 20px;
+    color: #686866;
+}
+/* ========================================= */
+
+.Our-Baking {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin: 150px 0px;
+}
+
+.Our-Baking .Learn {
+    padding: 30px 0px 50px 0px;
+    color: #686866;
+}
+
+.Our-Baking img {
+    width: 100%;
+}
+
+.Our-Baking .Superior {
+    width: 25%;
+    float: left;
+    padding: 0px 50px 0px 120px;
+}
+
+.Our-Baking .Bagels {
+    width: 25%;
+    float: left;
+    padding: 0px 10px 0px 10px;
+}
+
+.Our-Baking .Cookies {
+    width: 25%;
+    float: left;
+    padding: 0px 120px 0px 50px;
+}
+
+.Our-Baking h3 {
+    padding: 50px 0px 30px 50px;
+}
+
+.Superior p,
+.Bagels p,
+.Cookies p {
+    font-size: 20px;
+    color: #686866;
+    font-family: "Alegreya", serif;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-family: "Alegreya SC", serif;
+}
+
+/* ============================================ */
+.home .nav :hover {
+    color: #8e7754;
+}
+/* =============================================== */
+
+.about-us {
+    background-color: #403d38;
+    color: #fff;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+
+
+.about-us .continer .about,
+.about-us .continer .qustion,
+.about-us .continer .Opening-Hours,
+.about-us .continer .Contact-Detaila {
+    padding:  50px 40px;
+}
+
+
+.about-us .continer .about p,
+.about-us .continer .qustion ul li,
+.about-us .continer .Opening-Hours ul li,
+.about-us .continer .Contact-Detaila ul li,
+.about-us .continer .Contact-Detaila ul li a
+{
+    font-size: 16px;
+    color: #969696;
+}
+
+
+.about-us .continer {
+    padding-left:100px;
+}
+
+
+.about-us ul li {
+    padding-top: 20px;
+}
+
+.about-us .about .text-block {
+    padding: 50px 0px;
+}
+
+.about-us .about {
+    width: 20%;
+    float: left;
+}
+
+.about-us .qustion {
+    width: 15%;
+    float: left;
+}
+
+.about-us .Opening-Hours {
+    width: 15%;
+    float: left;
+}
+
+.about-us .Contact-Detaila {
+    width: 20%;
+    float: left;
+}
+
+.about-us .continer .Opening-Hours .line,
+.about-us .continer .Contact-Detaila .line,
+.about-us .continer .qustion .line
+
+{
+    border-bottom: solid 1px #686866;
+    padding-top:5px ;
+}
+
+
+.about-us .continer .Contact-Detaila ul{
+    background-image: url(images/contact-details-map.png);
+    background-size:100% 100%;
+    opacity: .8;
+}
+
+/* ============================== */
+.bakery {
+    background-color: #353330;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.bakery .fnish img {
+    width: 350px;
+}
+
+.bakery .media a img {
+    width:20px ;
+}
+
+
+.bakery .media a img{
+    width: 25px;
+    border: solid 2px #969696;
+    border-radius: 50%;
+    background-color: #686866;
+}
+
+.bakery p{
+    font-size: 18px;
+    color: #969696;
+    padding: 30px 0px;
+}
+
+/* =========================== */
+
+.bakery .media a .t:hover{
+    background-color: rgb(27, 130, 255);
+}
+.bakery .media a .l:hover{
+    background-color:rgb(27, 130, 255) ;
+}
+.bakery .media a .g:hover{
+    background-color: red;
+}
+.bakery .media a .f:hover{
+    background-color: blue;
+}
+/* ======================= */
+
+
+.how-are .section1 ul img {
+    border-radius: 150px;
+    border: solid 1px #969696;
+    width: 40px;
+    float:left;
+}
+.how-are .section1 ul li {
+    padding-left: 50px;
+}
+
+/* ================ */
+.about-us .Opening-Hours ul img,
+.about-us .qustion ul img {
+    width: 20px;
+    float: left;
+    padding-top: 20px;
+}
+
+/* ========================== */
+.map{
+    background-color: #f8f8f8;
+    width: 100%;
+    overflow: hidden;
+    padding: 120px 0px;
+}
+
+.map .Contact-Information {
+
+    width: 40%;
+    float: left;
+    padding-left: 100px;
+}
+
+.map .Contact-Information .text-block {
+    padding: 50px 0px ;
+    width: 590px;
+}
+
+
+.map .Contact-Information ul {
+    padding-top: 30px;
+}
+
+.map .Contact-Information ul li
+{
+    padding: 10px 70px;
+
+}
+
+
+
+
+
+
+
+
+
+.map .g-map {
+
+    width: 40%;
+    float: left;
+    padding-left: 100px;
+}
+
+
+
+
+.map .Contact-Information ul img {
+    width: 35px;
+    border: solid 2px #8e7754 ;
+    border-radius: 50%;
+    background-color: #8e7754;
+    float: left;
+
+}
